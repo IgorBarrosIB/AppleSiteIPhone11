@@ -12,6 +12,5 @@
 </ul>
 
 ## Imagem demonstrativa do projeto 
-
-
+<a href="" target="_blank">![alt text](http://projetopratico02.tk/img/screencapture_apple.png)</a>
 
