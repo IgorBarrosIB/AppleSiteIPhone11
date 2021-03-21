@@ -12,6 +12,6 @@
 </ul>
 
 ## Imagem demonstrativa do projeto 
-<a href="" target="_blank">![alt text]()</a>
+
 
 
