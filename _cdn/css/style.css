@@ -176,5 +176,217 @@ a {
     color: #888;
   }
 }
+/*IPHONE SE*/
+.iphonese {
+  width: 100%;
+  height: 70vh;
+  padding-top: 50px;
+  margin: 5px 0px;
+  background-color: #131313;
+}
+
+.container-iphonese {
+  max-width: 820px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-title-iphonese h1 {
+  color: #fafafa;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.container-title-iphonese h3 {
+  color: #fafafa;
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+.container-title-iphonese p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.container-title-iphonese .link {
+  display: block;
+  color: blue;
+  position: relative;
+  margin: 0px 20px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.container-title-iphonese .link:after {
+  content: ">";
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+.container-title-iphonese .link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.container-img-iphonese img {
+  width: 100%;
+}
+
+/* IPHONE 11 */
+.iphone11 {
+  width: 100%;
+  height: 70vh;
+  margin: 5px 0px;
+  padding-top: 5vh;
+  background-image: url("../../img/iphone11.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center 100%;
+}
+
+@media screen and (max-width: 1380px) {
+  .iphone11 {
+    height: 60vh;
+    background-size: 120%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .iphone11 {
+    height: 50vh;
+    background-size: 170%;
+  }
+
+  h1 {
+    font-size: 36px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+}
+.container-iphone11 {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.container-iphone11 h1 {
+  color: #131313;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.container-iphone11 h3 {
+  color: #131313;
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+.container-iphone11 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.container-iphone11 .link {
+  display: block;
+  color: blue;
+  position: relative;
+  margin: 0px 20px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.container-iphone11 .link:after {
+  content: ">";
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+.container-iphone11 .link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* PRODUCTS */
+.products {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.watch {
+  flex: 1 1 380px;
+  height: 100%;
+  margin: 0px 5px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.watch h1 {
+  height: 70px;
+  background-image: url("../../img/fig_watch.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center center;
+}
+.watch h3 {
+  color: #131313;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+.watch p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.watch img {
+  width: 50%;
+}
+
+.airpods {
+  flex: 1 1 380px;
+  height: 110%;
+  margin: 0 5px;
+  padding-top: 30px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.airpods h1 {
+  color: #fafafa;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.airpods h3 {
+  color: #fafafa;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+.airpods p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.airpods img {
+  width: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
