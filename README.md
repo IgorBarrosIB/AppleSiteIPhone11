@@ -12,7 +12,6 @@
   <li>javascript</li>
   <li>SASS</li>
 </ul>
-## 
 
 ## Imagem demonstrativa do projeto 
 <a href="" target="_blank">![alt text](http://projetopratico02.tk/img/screencapture_apple.png)</a>
@@ -22,4 +21,4 @@
 	🚀 Em Procudução
 </h4>
 
-##
+## 
