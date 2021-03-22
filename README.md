@@ -21,4 +21,6 @@
 	🚀 Em Procudução
 </h4>
 
-## 
+## Sobre o Projeto 
+
+<h4>Este projeto foi inspirado no tutorial do youtube pelo <a href="https://www.youtube.com/watch?v=DtLFNaxuhwM&t=1s"> Násser Yousef Ali </a></h4>
